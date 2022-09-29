@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+    background-color: rgb(255, 255, 254);
+}
+
+header{
+    text-align: center;
+    margin-top: 30px;
+}
+
+header h1{
+    color: rgb(229, 49, 112);
+}
+
+header p{
+    margin: auto;
+    padding: 50px;
+    width: 900px;
+    
+}
