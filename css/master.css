@@ -25,7 +25,7 @@ header p{
     padding: 50px;
     padding-top: 40px;
     padding-bottom: 30px;
-    width: 80%;
+    width: 85%;
     font-weight: lighter;
 }
 
@@ -36,7 +36,7 @@ main{
 }
 
 .structure{
-    width: 73%;
+    width: 80%;
     margin:0 auto;
 }
 
@@ -55,12 +55,13 @@ main{
     float: left;
     width: calc(100% /3);
     min-height: 70px;
-    border: solid 10px white; 
+    border: solid 15px white; 
     background-color: rgb(15, 14, 23);
     padding-left: 0;
     padding-right: auto;
     padding-top: 0;
     padding-bottom: 0;
+    box-shadow: 10px 10px 5px #aaaaaa
 }
 
 
@@ -102,7 +103,7 @@ span{
 }
 
 .structure2{
-    width: 73%;
+    width: 80%;
     margin:0 auto;
 }
 
@@ -110,12 +111,11 @@ span{
     float: left;
     width: calc(100% /3);
     min-height: 70px;
-    border: solid 10px white; 
+    border: solid 15px white; 
     background-color: rgb(15, 14, 23);
     padding-left: 0;
     padding-right: auto;
     padding-top: 0;
     padding-bottom: 0;
     margin-top: 20px;
-    box-shadow: 10px 10px 5px #aaaaaa
 }
