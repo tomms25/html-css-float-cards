@@ -1,3 +1,5 @@
+ /* Regole generali */
+
 *{
     margin: 0;
     padding: 0;
@@ -21,6 +23,34 @@ header h1{
 header p{
     margin: auto;
     padding: 50px;
-    width: 900px;
-    
+    width: 80%;
+}
+
+/* Regole griglia */
+
+main{
+    margin: 30 0;
+}
+
+.structure{
+    width: 71%;
+    margin:0 auto;
+}
+
+.row{
+    background-color: rgb(15, 14, 23);
+}
+
+/* clearfix */
+.row::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.colonna{
+    float: left;
+    width: calc(100% /3);
+    min-height: 90px;
+    border: solid 5px white; 
 }
