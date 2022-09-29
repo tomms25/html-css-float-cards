@@ -61,12 +61,12 @@ main{
     padding-right: auto;
     padding-top: 0;
     padding-bottom: 0;
-    box-shadow: 10px 10px 5px #aaaaaa
 }
 
 
 .contenuto-colonna{
     height: 90px;
+    box-shadow: 0px 0px 8px black;
 
 }
 
@@ -118,5 +118,6 @@ span{
     padding-top: 0;
     padding-bottom: 0;
     margin-top: 20px;
-    box-shadow: 10px 10px 5px #aaaaaa
+    will-change: box-shadow;
+    
 }
