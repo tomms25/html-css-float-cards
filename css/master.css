@@ -23,7 +23,10 @@ header h1{
 header p{
     margin: auto;
     padding: 50px;
+    padding-top: 40px;
+    padding-bottom: 30px;
     width: 80%;
+    font-weight: lighter;
 }
 
 /* Regole griglia */
@@ -33,7 +36,7 @@ main{
 }
 
 .structure{
-    width: 71%;
+    width: 73%;
     margin:0 auto;
 }
 
@@ -58,7 +61,16 @@ main{
     padding-right: auto;
     padding-top: 0;
     padding-bottom: 0;
+    box-shadow: 5px 10px;
 }
+
+
+.contenuto-colonna{
+    height: 90px;
+
+}
+
+
 
 img{
     height: 90px;
@@ -89,6 +101,6 @@ span{
 }
 
 .structure2{
-    width: 71%;
+    width: 73%;
     margin:0 auto;
 }
