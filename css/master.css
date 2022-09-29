@@ -80,7 +80,7 @@ img{
 span{
     display: inline-block;
     color: white;
-    font-size: 15px;
+    font-size: 16px;
     position: absolute;
     margin-top: 10px;
     font-weight: bold;
@@ -93,6 +93,7 @@ span{
     margin-top: 35px;
     margin-bottom: 20px;
     font-weight:lighter;
+    font-size: 14px;
 }
 
 .email{
