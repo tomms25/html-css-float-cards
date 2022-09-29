@@ -52,7 +52,7 @@ main{
     float: left;
     width: calc(100% /3);
     min-height: 90px;
-    border: solid 20px white; 
+    border: solid 10px white; 
     background-color: rgb(15, 14, 23);
     padding-left: 0;
     padding-right: auto;
@@ -71,6 +71,7 @@ span{
     font-size: 15px;
     position: absolute;
     margin-top: 10px;
+    font-weight: bold;
 }
 
 .contenuto-colonna p{
@@ -78,10 +79,16 @@ span{
     color: white;
     position: absolute;
     margin-top: 40px;
-    
+    margin-bottom: 20px;
+    font-weight:lighter;
 }
 
 .email{
     font-size: 12px;
-    margin-top: 60px;
+    color:aqua;
+}
+
+.structure2{
+    width: 71%;
+    margin:0 auto;
 }
